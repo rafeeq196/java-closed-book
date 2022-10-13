@@ -1,0 +1,20 @@
+package javaclosedbook;
+
+import java.util.Scanner;
+
+public class primeNcheck4 {
+
+	public static void main(String[] args) {
+		Scanner s =new Scanner(System.in);
+		int number;//user will enter any number 
+		int count =0;
+		System.out.println("enter any number to check prime or not");
+		number = s.nextInt();
+		for (int i=1; i<=number; i++) {
+			if(number%i==0) {
+			count++;}
+		}if(count==2) {System.out.println("number is prime");}
+		else {System.out.println("number is not prime");}
+	}
+
+}
