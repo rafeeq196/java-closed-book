@@ -1,0 +1,22 @@
+package javaclosedbook;
+
+public class primitive2 {
+
+	public static void main(String[] args) {
+		System.out.println("Below are the primitive data types in java");
+		char c='a';
+		byte b =5;//–128 to 127, inclusive and size is 8 bits
+		short s =54;// –128 to 127, inclusive and size is 16 bits
+		int i = 150;
+		//–2,147,483,648 to 2,147,483,647, inclusive and size is 32 bits
+		long l =1000L;//–9,223,372,036,854,775,808 to 9,223,372,036,854,775,807, inclusive and size is 64 bits
+		float f = 5.5F; //decimal value
+		System.out.println("it is a character value :" +c);
+		System.out.println("it is a byte value :" +b);
+		System.out.println("it is a short value :" +s);
+		System.out.println("it is a int value :" +i);
+		System.out.println("it is a long value :" +l);
+		System.out.println("it is a floating value :" +f);
+	}
+
+}
