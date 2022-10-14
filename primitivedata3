@@ -1,0 +1,27 @@
+package javaclosedbook;
+
+public class primitivedata3 {
+
+	public static void main(String[] args) {
+		 System.out.println("Below are the possible wayse of declaring variables ");
+
+		 int myNumber = 5;
+		 System.out.println("First character of variable name must be letters,underscore or $ like myNumber is "+myNumber);
+		 byte my_number =2;
+		 System.out.println("Their shoub not be blanks b/w variable name like myNumber is "+my_number);
+
+		 short $area =1;
+		 long lenthy_rectangle = 1002L;
+		 
+		 //implicity 
+		 int a =10;// size of int is 4 bytes
+		 double b=a;// size of double is 8 bytes its possible here!
+		 System.out.println("example of implicit is int converted in double "+b);
+		//Explicit
+		 double c =10;// size of int is 8 bytes
+		 int d=(int)c;
+		 // size of double is 4 bytes its not possible here! so we have to mention type here
+		 System.out.println("example of Explicit is int converted in int after mention its type "+d);
+	}
+
+}
