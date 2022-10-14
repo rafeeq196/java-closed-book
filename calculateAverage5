@@ -1,0 +1,26 @@
+package javaclosedbook;
+
+import java.util.Scanner;
+
+public class calculateAverage5 {
+
+	public static void main(String[] args) {
+		main();
+		//static void main{}
+	}
+	static void main(){
+		int a,b,c,d,e;
+		System.out.println("enter your five numbers to get average");
+		Scanner s=new Scanner(System.in);
+		a=s.nextInt();
+		b=s.nextInt();
+		c=s.nextInt();
+		d=s.nextInt();
+		e=s.nextInt();
+		int sum = a+b+c+d+e;// sum of all numbers
+		double avg =sum/5.0;
+		System.out.println("Average of given numbers is :"+avg);
+		
+	}
+
+}
