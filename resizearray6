@@ -1,0 +1,31 @@
+package javaclosedbook;
+
+import java.util.Arrays;
+
+public class resizearray6 {
+
+	public static void main(String[] args) {
+		System.out.println("You can't resize an array in Java. You'd need to either:\r\n"
+				+ "\r\n"
+				+ "Create a new array of the desired size, and copy the contents from the original array to the new array, using java.lang.System.arraycopy(...);");
+
+		System.out.println("below are array array elements");
+		int marks[] = new int[3];
+		marks[0] = 75;
+		marks[1] = 85;
+		marks[2] = 95;
+		System.out.println("Befor resize!");
+		for(int i=0; i<marks.length; i++) {
+			
+			System.out.println(marks[i]);
+		}
+		System.out.println("After resize!");
+		marks = Arrays.copyOf(marks, marks.length + 2);
+        marks[3] = 65;
+        marks[4] = 55;
+		for(int i=0; i<marks.length; i++) {
+			System.out.println(marks[i]);
+		}
+	}
+
+}
