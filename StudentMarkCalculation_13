@@ -1,0 +1,15 @@
+package javaclosedbook;
+
+public class StudentMarkCalculation_13 {
+
+	public static void main(String[] args) {
+		int sum =0;
+		int students[][ ]= {{50,55,62},{70,75,80},{85,90,95}};
+		for(int i=0; i<students.length; i++ ) {
+			for(int j=0; j<students.length; j++) {
+				sum+=students[i][j];
+			}
+		}System.out.println("The sum of the students is : " + sum);
+	}
+
+}
